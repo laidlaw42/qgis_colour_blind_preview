@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/colour_blind" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

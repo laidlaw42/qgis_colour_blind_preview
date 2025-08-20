@@ -1,0 +1,37 @@
+[general]
+name=Colour Blind Preview
+qgisMinimumVersion=3.0
+description=Toolbar plugin that allows easy switching of the map preview mode for colour blind friendly map designers
+version=1.1
+author=laidlaw42
+email=laidlaw@duck.com
+about=Usage:
+    1) Two icons appear in the toolbar (black square with no fill, and a red triangle)
+    2) Primary-click applies the selected preview mode from the Settings dialog
+    3) Hover over icons to see tooltips indicating the mode
+    4) Secondary-click opens the Settings dialog:
+       Modes: normal (disables preview mode), monochrome, achromatopsia, protanopia, deuteranopia, tritanopia
+       Enable/disable active highlights
+       Switch between text or icon options
+       Settings are persistent across sessions
+    5) Icons can be replaced with custom SVGs:
+       Locate the `qgis_colour_blind` in your plugins directory
+       Place your SVG icons in the `icons` folder and rename/replace the existing files as required
+
+tracker=https://github.com/laidlaw42/qgis_colour_blind_preview/issues
+repository=https://github.com/laidlaw42/qgis_colour_blind_preview
+
+; Recommended items:
+hasProcessingProvider=False
+; changelog=v1.1 Initial commit
+
+; Tags are comma separated with spaces allowed
+tags=colorblind, colourblind, accessibility, preview, monochrome, achromatopsia, protanopia, deuteranopia, tritanopia
+
+homepage=https://github.com/laidlaw42/qgis_colour_blind
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+plugin_dependencies=
+server=False
